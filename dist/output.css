@@ -484,6 +484,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (min-width: 693px) {
+  .container {
+    max-width: 693px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -1014,6 +1020,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:top-160 {
+    top: 37rem;
+  }
+
   .sm\:mt-28 {
     margin-top: 7rem;
   }
@@ -1061,9 +1071,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:text-center {
     text-align: center;
   }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:top-180 {
+    top: 45rem;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1116,14 +1135,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-left {
     text-align: left;
   }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-96 {
+    top: 24rem;
+  }
+
   .lg\:w-1\/4 {
     width: 25%;
   }
@@ -1143,10 +1161,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 300px) {
-  .slg\:top-160 {
-    top: 37rem;
-  }
-
   .slg\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -1167,14 +1181,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+}
 
-  .slg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+@media (min-width: 693px) {
+  .mm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
 @media (min-width: 1080px) {
+  .slgp\:top-96 {
+    top: 24rem;
+  }
+
   .slgp\:mt-0 {
     margin-top: 0px;
   }

@@ -1,5 +1,9 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    './components/**/*.{html,js}',
+    './pages/**/*.{html,js}',
+    './index.html',
+  ],
   theme: {
     extend: {
       spacing: {
@@ -9,6 +13,7 @@ module.exports = {
         '101': '25rem',
         '120': '30rem',
         '160':'37rem',
+        '180': '45rem',
         '68': '17rem'
       },
       colors:{
@@ -51,6 +56,7 @@ module.exports = {
       },
       screens: {
         'slg': '300px',
+        'mm':'693px',
         'slgp': '1080px'
       }
     },
