@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flexprop {
+    @apply flex flex-wrap justify-between;
+  }
+  .navIcon {
+    @apply mr-6 w-7;
+  }
+}
